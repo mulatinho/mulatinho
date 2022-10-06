@@ -1,4 +1,4 @@
-**Hi I'm Alexandre Mulatinho.**
+Hi!
 
 I am a Software Developer and Systems Administrator.
 
