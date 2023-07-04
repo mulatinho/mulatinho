@@ -1,0 +1,19 @@
+vbell on
+shell bash
+
+defscrollback 10000
+term xterm-256color
+
+hardstatus alwayslastline
+hardstatus string '%{= kw}[ %H ][%= %?%-Lw%?(%{= wk}%n*%f%t%?(%u)%?%{= kw})%?%+Lw%?%?%= ][ %Y.%m.%d %c ]'
+
+screen -t root bash -c "neofetch; bash"
+screen -t code
+screen -t dev 
+screen -t programming
+screen -t bash
+screen -t misc bash -c "curl wttr.in/Recife; bash"
+
+altscreen on
+
+termcapinfo xterm* ti@:te@
