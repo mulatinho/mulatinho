@@ -1,0 +1,24 @@
+---
+  - name: Initial Config
+    hosts: 127.0.0.1
+    connection: local
+    become: true
+
+    tasks:
+      - name: Update APT and Installing some Packages
+        apt:
+          pkg:
+            - iputils-ping
+            - bsdmainutils
+            - bind9-dnsutils
+            - curl
+            - vim
+            - screen
+            - lynx
+            - htop
+            - mc
+            - taskwarrior
+          update_cache: yes
+
+      - name: hey
+        shell: echo hey
