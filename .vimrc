@@ -6,7 +6,7 @@ filetype plugin indent on
 
 set nocompatible
 set noundofile
-set nonumber
+set number
 set showmatch
 set encoding=utf-8
 set mouse=c
@@ -37,13 +37,12 @@ iab mltlivre Alexandre Mulatinho <alex@livredigital.com>
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
-" python
-" au filetype py inoremap <buffer> . .<C-x><C-o>
+" completion
 let g:jedi#popup_on_dot = 1
 let g:jedi#show_call_signatures = "2"
 let g:jedi#auto_vim_configuration = 1
 
-
+" individual files
 au BufRead,BufNewFile Makefile*,Dockerfil,*config set noexpandtab
 highlight BadWhitespace ctermbg=red guibg=darkred
 au BufRead,BufNewFile *.go,*.py,*.pyw,*.c,*.h,*.yml,*.yaml,*.js,*.cc,*.hh match BadWhitespace /\s\+$/
@@ -53,6 +52,5 @@ au BufNewFile,BufRead *.json,*.js set expandtab ts=2 sw=2 sts=0 smarttab
 au BufRead,BufNewFile *.py,.*pyw set expandtab tabstop=4 softtabstop=4 expandtab shiftwidth=4 autoindent
 au BufRead,BufNewFile *.c,*.h,*.cpp,*.hpp,*.hh,*.cxx set tabstop=8 softtabstop=0 shiftwidth=8 smarttab
 au filetype go inoremap <buffer> . .<C-x><C-o>
-au filetype go inoremap <Tab> <C-p>
 au filetype go inoremap <S-Tab> <C-x><C-o>
 autocmd BufWritePre *.{c,cpp,cc,h,hpp,py,m,mm,yml,yaml} :%s/\s\+$//e
