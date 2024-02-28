@@ -14,4 +14,3 @@ Fun facts:
 - Nicknames: `crudo`, `mulatinho`
 - I love beaches and nature.
 - I love music (hear almost all day) although I am not a musician.
-- I don't use my personal account to commit on companies I worked on.
