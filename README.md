@@ -9,6 +9,7 @@ My main focus today is on:
 - Linux and Networking.
 - Infrastructure as a Code.
 - Kubernetes and Containers in general.
+- C, Go, Node.js and Python developer.
 
 Fun facts:
 - Nicknames: `crudo`, `mulatinho`
