@@ -37,19 +37,16 @@ Here are some projects showcasing my expertise in DevOps and SRE:
 - Automated multi-region Kubernetes clusters using **Terraform** and **Ansible**.  
 - Deployed **Prometheus** and **Grafana** for monitoring and alerting, achieving **99.9% uptime**.  
 - **Technologies**: GCP, Kubernetes, Terraform, Prometheus, Grafana  
-- [**Link to Repository**]  
 
 ### 2. **CI/CD Pipeline for Microservices**  
 - Developed a robust CI/CD pipeline using **GitHub Actions** and **FluxCD**, enabling faster and reliable deployments.  
 - Integrated **Keycloak** for centralized authentication and improved system security.  
 - **Technologies**: Kubernetes, GitHub Actions, FluxCD, Keycloak  
-- [**Link to Repository**]  
 
 ### 3. **Cloud Cost Optimization Project**  
 - Migrated legacy systems to **GCP**, reducing cloud costs by **40%** while improving performance.  
 - Created **IaC templates** to standardize deployments across environments.  
 - **Technologies**: GCP, Terraform, Linux  
-- [**Link to Repository**]  
 
 ---
 
