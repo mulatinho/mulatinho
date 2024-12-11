@@ -1,11 +1,11 @@
 # 👋 Hi, I'm Alexandre Mulatinho  
-**DevOps | Site Reliability Engineer | Cloud Architect**
+**DevOps | Site Reliability Engineer | Software Engineer**
 
 ---
 
 ## 🚀 About Me  
 
-With over **8years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
+With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
 
 - Automating deployments and infrastructure using **Terraform**, **Ansible**, and **Kubernetes**  
 - Optimizing cloud platforms, including **Google Cloud Platform (GCP)** and **AWS**  
