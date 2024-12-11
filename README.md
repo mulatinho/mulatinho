@@ -5,7 +5,7 @@
 
 ## 🚀 About Me  
 
-With over **10 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Cloud Infrastructure**, I specialize in:  
+With over **8years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
 
 - Automating deployments and infrastructure using **Terraform**, **Ansible**, and **Kubernetes**  
 - Optimizing cloud platforms, including **Google Cloud Platform (GCP)** and **AWS**  
@@ -24,14 +24,12 @@ Here are some of the tools and technologies I work with daily:
 - **Automation Tools**: Terraform, Ansible  
 - **CI/CD Pipelines**: GitHub Actions, GitLab CI, Jenkins  
 - **Monitoring & Observability**: Prometheus, Grafana, Loki  
-- **Languages**: Python, Shell Scripting, Go, C  
-- **Databases**: PostgreSQL, MongoDB  
+- **Languages**: C, Shell Scripting, Go, Python, Node.js
+- **Databases**: PostgreSQL, MySQL, MongoDB, SQLite
 
 ---
 
 ## 📚 Notable Projects  
-
-Here are some projects showcasing my expertise in DevOps and SRE:  
 
 ### 1. **Kubernetes Infrastructure Automation**  
 - Automated multi-region Kubernetes clusters using **Terraform** and **Ansible**.  
