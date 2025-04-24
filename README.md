@@ -15,7 +15,7 @@ I am passionate about **solving complex challenges**, improving system reliabili
 
 ---
 
-## 🛠️ Key Technologies  
+## Key Technologies  
 
 Here are some of the tools and technologies I work with daily:  
 
@@ -27,28 +27,7 @@ Here are some of the tools and technologies I work with daily:
 - **Languages**: C, Shell Scripting, Go, Python, Node.js
 - **Databases**: PostgreSQL, MySQL, MongoDB, SQLite
 
----
-
-## 📚 Notable Projects  
-
-### 1. **Kubernetes Infrastructure Automation**  
-- Automated multi-region Kubernetes clusters using **Terraform** and **Ansible**.  
-- Deployed **Prometheus** and **Grafana** for monitoring and alerting, achieving **99.9% uptime**.  
-- **Technologies**: GCP, Kubernetes, Terraform, Prometheus, Grafana  
-
-### 2. **CI/CD Pipeline for Microservices**  
-- Developed a robust CI/CD pipeline using **GitHub Actions** and **FluxCD**, enabling faster and reliable deployments.  
-- Integrated **Keycloak** for centralized authentication and improved system security.  
-- **Technologies**: Kubernetes, GitHub Actions, FluxCD, Keycloak  
-
-### 3. **Cloud Cost Optimization Project**  
-- Migrated legacy systems to **GCP**, reducing cloud costs by **40%** while improving performance.  
-- Created **IaC templates** to standardize deployments across environments.  
-- **Technologies**: GCP, Terraform, Linux  
-
----
-
-## 🌍 Let's Connect  
+## Let's Connect  
 
 Feel free to reach out to me or explore my work on the following platforms:  
 
