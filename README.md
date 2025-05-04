@@ -1,12 +1,13 @@
-# 👋 Hi, I'm Alexandre Mulatinho  
-**DevOps | Site Reliability Engineer | Software Engineer**
+# Hi, I'm Alexandre Mulatinho  
+**DevOps/Site Reliability Engineer | Software Engineer | Linux Addicted**
 
 ---
 
-## 🚀 About Me  
+## About Me  
 
-With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
+ I started working with Linux back in my teenage years, mostly coding in C and Shell, I think that gave me a strong foundation in low-level systems and scripting. With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
 
+- Systems Engineering using languages like **C, Shell Script, Go, Python, Node.js, TypeScript**
 - Automating deployments and infrastructure using **Terraform**, **Ansible**, and **Kubernetes**  
 - Optimizing cloud platforms, including **Google Cloud Platform (GCP)** and **AWS**  
 - Ensuring system availability and performance using **CI/CD pipelines**, monitoring tools like **Prometheus** and **Grafana**, and advanced **troubleshooting** techniques  
@@ -19,7 +20,7 @@ I am passionate about **solving complex challenges**, improving system reliabili
 
 Here are some of the tools and technologies I work with daily:  
 
-- **Cloud Providers**: AWS, GCP  
+- **Cloud Providers**: AWS, GCP
 - **Containerization & Orchestration**: Kubernetes, Docker  
 - **Automation Tools**: Terraform, Ansible  
 - **CI/CD Pipelines**: GitHub Actions, GitLab CI, Jenkins  
