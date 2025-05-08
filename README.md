@@ -24,8 +24,8 @@ Feel free to reach out to me or explore my work on the following platforms:
 - **Stack Overflow**: [stackoverflow.com/users/1624613/alex](https://stackoverflow.com/users/1624613/alex)  
 - **HackerRank**: [hackerrank.com/profile/mulatinho](https://www.hackerrank.com/profile/mulatinho)  
 
-** Contact Me**  
+**Contact Me**  
 If you're looking to collaborate or have opportunities related to **DevOps** and **SRE** roles, you can reach me at:  
 **alex.mulatinho@yahoo.com**  
 
-⭐️ **Pro Tip**: If you find my repositories helpful or interesting, consider **starring** them!
+**Pro Tip**: If you find my repositories helpful or interesting, consider **starring** them!
