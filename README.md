@@ -5,7 +5,7 @@
 
 ## About Me  
 
- I started working with Linux back in my teenage years, mostly coding in C and Shell, I think that gave me a strong foundation in low-level systems and scripting. With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
+ I started working with Linux back in my teenage years (20+ years ago), mostly coding in C and Shell, I think that gave me a strong foundation in low-level systems and scripting. With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
 
 - Systems Engineering using languages like **C, Shell Script, Go, Python, Node.js, TypeScript**
 - Automating deployments and infrastructure using **Terraform**, **Ansible**, and **Kubernetes**  
