@@ -1,5 +1,5 @@
-# Hi, I'm Alexandre Mulatinho  
-**DevOps/Site Reliability Engineer | Software Engineer | Linux Addicted**
+# Alexandre Mulatinho  
+**Software Engineer | Linux Addicted | DevOps/Site Reliability Engineer**
 
 ---
 
@@ -16,18 +16,6 @@ I am passionate about **solving complex challenges**, improving system reliabili
 
 ---
 
-## Key Technologies  
-
-Here are some of the tools and technologies I work with daily:  
-
-- **Cloud Providers**: AWS, GCP
-- **Containerization & Orchestration**: Kubernetes, Docker  
-- **Automation Tools**: Terraform, Ansible  
-- **CI/CD Pipelines**: GitHub Actions, GitLab CI, Jenkins  
-- **Monitoring & Observability**: Prometheus, Grafana, Loki  
-- **Languages**: C, Shell Scripting, Go, Python, Node.js
-- **Databases**: PostgreSQL, MySQL, MongoDB, SQLite
-
 ## Let's Connect  
 
 Feel free to reach out to me or explore my work on the following platforms:  
@@ -36,12 +24,8 @@ Feel free to reach out to me or explore my work on the following platforms:
 - **Stack Overflow**: [stackoverflow.com/users/1624613/alex](https://stackoverflow.com/users/1624613/alex)  
 - **HackerRank**: [hackerrank.com/profile/mulatinho](https://www.hackerrank.com/profile/mulatinho)  
 
----
-
-**📧 Contact Me**  
+** Contact Me**  
 If you're looking to collaborate or have opportunities related to **DevOps** and **SRE** roles, you can reach me at:  
 **alex.mulatinho@yahoo.com**  
-
----
 
 ⭐️ **Pro Tip**: If you find my repositories helpful or interesting, consider **starring** them!
