@@ -5,9 +5,10 @@
 
 ## About Me  
 
- I started working with Linux back in my teenage years (20+ years ago), mostly coding in C and Shell, I think that gave me a strong foundation in low-level systems and scripting. With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and **Software Engineering**, I specialize in:  
+ I started working with Linux back in my teenage years (20+ years ago), mostly coding in C and Shell, I think that gave me a strong foundation in low-level systems and scripting. With over **8 years of experience** in **DevOps**, **Site Reliability Engineering**, and more than 20 years in **Linux management and development**, I specialize in:  
 
-- Systems Engineering using languages like **C, Shell Script, Go, Python, Node.js, TypeScript**
+- **Linux**, its my life and, the main technology I love to learn all things every day.
+- Systems Engineering using languages like **C, Shell Script, Go, Python and Node.js**
 - Automating deployments and infrastructure using **Terraform**, **Ansible**, and **Kubernetes**  
 - Optimizing cloud platforms, including **Google Cloud Platform (GCP)** and **AWS**  
 - Ensuring system availability and performance using **CI/CD pipelines**, monitoring tools like **Prometheus** and **Grafana**, and advanced **troubleshooting** techniques  
@@ -25,7 +26,7 @@ Feel free to reach out to me or explore my work on the following platforms:
 - **HackerRank**: [hackerrank.com/profile/mulatinho](https://www.hackerrank.com/profile/mulatinho)  
 
 **Contact Me**  
-If you're looking to collaborate or have opportunities related to **DevOps** and **SRE** roles, you can reach me at:  
-**alex.mulatinho@yahoo.com**  
+If you're looking to collaborate or have opportunities related to **Software Engineering, DevOps** and **SRE** roles, you can reach me at:  
+**alex@livredigital.com**  
 
 **Pro Tip**: If you find my repositories helpful or interesting, consider **starring** them!
