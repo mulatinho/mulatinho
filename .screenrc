@@ -12,6 +12,7 @@ screen -t code
 screen -t dev 
 screen -t programming
 screen -t bash
+screen -t htop bash -c "htop"
 screen -t misc bash -c "curl wttr.in/Recife; bash"
 
 altscreen on
