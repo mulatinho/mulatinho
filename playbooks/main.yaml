@@ -3,16 +3,17 @@
   gather_facts: false
   hosts: localhost
   connection: local
-  become: true
 
   tasks:
     - name: "APT: update and upgrade"
+      become: yes
       ansible.builtin.apt:
         update_cache: yes
         cache_valid_time: 3600
         upgrade: yes
 
     - name: Installing some Packages
+      become: yes
       ansible.builtin.apt:
         name:
           - iputils-ping
@@ -33,7 +34,7 @@
 
     - name: Install VIM pathogen
       shell: |
-        mkdir -p ~/.vim/autoload ~/.vim/bundle ~/src && \
+        mkdir -p ~/.vim/autoload ~/.vim/bundle ~/src ~/.config && \
         curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
       
     - name: Clone VIM Plugins
@@ -50,7 +51,7 @@
     - name: Clone Mulatinho Repository
       git:
         repo: https://github.com/mulatinho/mulatinho
-        dest: ~/src/
+        dest: "~/src/mulatinho"
     
     - name: "Copy configs for i3wm, i3status, and .vimrc"
       copy:
@@ -58,6 +59,6 @@
         dest: "{{ item.dest }}"
         remote_src: yes
       loop:
-        - { src: ~/src/mulatinho/config/i3/config, dest: ~/.config/i3/config }
-        - { src: ~/src/mulatinho/config/i3status/config, dest: ~/.config/i3status/config }
-        - { src: ~/src/mulatinho/.vimrc, dest: ~/.vimrc }
+        - { src: "~/src/mulatinho/.config/i3/config", dest: "~/.config/i3/config" }
+        - { src: "~/src/mulatinho/.config/i3status/config", dest: "~/.config/i3status/config" }
+        - { src: "~/src/mulatinho/.vimrc", dest: "~/.vimrc" }
