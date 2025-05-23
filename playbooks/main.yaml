@@ -32,9 +32,12 @@
           - i3status
         state: present
 
+    - name: Creating some directories
+      shell: |
+        mkdir -p ~/.config/i3 ~/.config/i3status ~/.vim/autoload ~/.vim/bundle/ ~/src
+
     - name: Install VIM pathogen
       shell: |
-        mkdir -p ~/.vim/autoload ~/.vim/bundle ~/src ~/.config && \
         curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
       
     - name: Clone VIM Plugins
@@ -45,8 +48,8 @@
         - https://github.com/scrooloose/nerdtree
         - https://github.com/bling/vim-airline
         - https://github.com/fatih/vim-go
-        - https://github.com/rip-rip/clang_complete
         - https://github.com/davidhalter/jedi-vim
+        - https://github.com/vim-scripts/c.vim
 
     - name: Clone Mulatinho Repository
       git:
