@@ -55,4 +55,4 @@ au BufRead,BufNewFile *.c,*.h,*.cpp,*.hpp,*.hh,*.cxx set tabstop=8 softtabstop=0
 au filetype go inoremap <buffer> . .<C-x><C-o>
 au filetype go inoremap <S-Tab> <C-x><C-o>
 
-autocmd VimEnter * NERDTreeToggle . 
+"autocmd VimEnter * NERDTreeToggle . 
