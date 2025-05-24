@@ -1,0 +1,54 @@
+- name: Install pkgsrc
+  ansible.builtin.command:
+    cmd: "{{ item }}" 
+    chdir: "/usr"
+  with_items:
+    - ftp https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc.tar.bz2
+    - tar xfj /usr/pkgsrc.tar.bz2 -C /usr/
+  register: pkgsrc_install
+  changed_when: pkgsrc_install.stdout != ""
+  failed_when: pkgsrc_install.rc != 0
+
+- name: Add pkgsrc to PATH
+  ansible.builtin.lineinfile:
+    path: /root/.shrc
+    line: "{{ item }}"
+  with_items:
+    - PATH="/usr/pkg/sbin:/usr/pkg/bin:$PATH"
+    - PKG_PATH="https://cdn.NetBSD.org/pub/pkgsrc/packages"
+    - PKG_PATH="$PKG_PATH/NetBSD/amd64/10.1/All"
+    - export PATH PKG_PATH
+
+- name: Update PKG
+  ansible.builtin.command:
+    cmd: "cvs update -dP"
+    chdir: "/usr/pkgsrc"
+  register: pkg_update
+  changed_when: pkg_update.stdout != ""
+  failed_when: pkg_update.rc != 0
+
+- name: Install PkgIn
+  ansible.builtin.command:
+    cmd: "pkg_add pkgin"
+
+- name: Install Packages
+  ansible.builtin.command:
+    cmd: "pkgin -y install {{ item }}"
+  loop:
+    - iputils-ping
+    - bsdmainutils
+    - bind9-dnsutils
+    - curl
+    - vim
+    - screen
+    - lynx
+    - htop
+    - mc
+    - taskwarrior
+    - i3-wm
+    - i3blocks
+    - i3lock
+    - i3status
+  register: pkg_install
+  changed_when: pkg_install.stdout != ""
+  failed_when: pkg_install.rc != 0

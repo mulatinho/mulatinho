@@ -1,0 +1,26 @@
+- name: "APT: update and upgrade"
+  become: yes
+  ansible.builtin.apt:
+    update_cache: yes
+    cache_valid_time: 3600
+    upgrade: yes
+
+- name: Installing some Packages
+  become: yes
+  ansible.builtin.apt:
+    name:
+      - iputils-ping
+      - bsdmainutils
+      - bind9-dnsutils
+      - curl
+      - vim
+      - screen
+      - lynx
+      - htop
+      - mc
+      - taskwarrior
+      - i3-wm
+      - i3blocks
+      - i3lock
+      - i3status
+    state: present

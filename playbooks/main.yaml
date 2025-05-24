@@ -1,36 +1,17 @@
 ---
 - name: Initial Config
-  gather_facts: false
+  gather_facts: true
   hosts: localhost
   connection: local
 
   tasks:
-    - name: "APT: update and upgrade"
-      become: yes
-      ansible.builtin.apt:
-        update_cache: yes
-        cache_valid_time: 3600
-        upgrade: yes
+    - name: "NetBSD Initilization"
+      include_tasks: netbsd.yaml 
+      when: ansible_os_family == "NetBSD"
 
-    - name: Installing some Packages
-      become: yes
-      ansible.builtin.apt:
-        name:
-          - iputils-ping
-          - bsdmainutils
-          - bind9-dnsutils
-          - curl
-          - vim
-          - screen
-          - lynx
-          - htop
-          - mc
-          - taskwarrior
-          - i3-wm
-          - i3blocks
-          - i3lock
-          - i3status
-        state: present
+    - name: "Linux Initialization"
+      include_tasks: linux.yaml 
+      when: ansible_os_family != "NetBSD"
 
     - name: Creating some directories
       shell: |
